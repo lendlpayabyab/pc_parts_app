@@ -1,0 +1,452 @@
+{
+  "parts" : [
+    {
+      "type" : "cpu",
+      "imageLink" : "assets/shop_pics/cpu.png",
+      "model" : [
+        {
+          "name" : "Intel Core i9 12900KS",
+          "price" : 41995.00
+        },
+        {
+          "name" : "AMD Ryzen 9 5950X",
+          "price" : 38995.00
+        },
+        {
+          "name" : "Intel Core i9 12900K",
+          "price" : 34995.00
+        },
+        {
+          "name" : "Intel Core i9 12900KF",
+          "price" : 33410.00
+        },
+        {
+          "name" : "AMD Ryzen 9 5900X",
+          "price" : 28995.00
+        },
+        {
+          "name" : "AMD Ryzen 7 5800X3D",
+          "price" : 27995.00
+        },
+        {
+          "name" : "Intel Core i7 12700K",
+          "price" : 24840.00
+        },
+        {
+          "name" : "AMD Ryzen 5800X",
+          "price" : 19995.00
+        }
+      ]
+    },
+    {
+      "type" : "gpu",
+      "imageLink" : "assets/shop_pics/gpu.jpeg",
+      "model" : [
+        {
+          "name" : "Asus RTX 3090 TUF Gaming OC",
+          "price" : 111220.00
+        },
+        {
+          "name" : "Asus RTX 3080Ti Strix Gaming OC",
+          "price" : 101710.00
+        },
+        {
+          "name" : "Galax RTX 3080 Ti SG 1",
+          "price" : 79995.00
+        },
+        {
+          "name" : "Asus RTX 3080 Strix Gaming White OC",
+          "price" : 60495.00
+        },
+        {
+          "name" : "Asus Rtx 3070 Noctua OC",
+          "price" : 52995.00
+        },
+        {
+          "name" : "Asus RTX 3070 Ti Strix Gaming OC",
+          "price" : 49995.00
+        },
+        {
+          "name" : "Gigabyte RTX 3070 Ti Vision OC",
+          "price" : 48995.00
+        },
+        {
+          "name" : "MSI RTX 3070 Ti Gaming X Trio-LHR",
+          "price" : 44895.00
+        }
+      ]
+    },
+    {
+      "type" : "motherboard",
+      "imageLink" : "assets/shop_pics/motherboard.png",
+      "model" : [
+        {
+          "name" : "Asus ROG Maximus Z690 Extreme Glacial",
+          "price" : 99995.00
+        },
+        {
+          "name" : "Asus ROG Maximus Z690 Extreme",
+          "price" : 57600.00
+        },
+        {
+          "name" : "Asus ROG Maximus Z690 Hero",
+          "price" : 32450.00
+        },
+        {
+          "name" : "Asus ROG Crosshair 8 Dark Hero",
+          "price" : 23920.00
+        },
+        {
+          "name": "Asus Strix Z690-I Gaming WiFi",
+          "price": 23520.00
+        },
+        {
+          "name" : "Asus ProArt Z690 Creator",
+          "price" : 23295.00
+        },
+        {
+          "name" : "MSI MPG Z690 Gaming Carbon WiFi",
+          "price" : 21710.00
+        }
+      ]
+    },
+    {
+      "type" : "ram",
+      "imageLink" : "assets/shop_pics/ram.png",
+      "model" : [
+        {
+          "name" : "32GB (dual) DDR5 6400 G.Skill Trident Z5 RGB Black CL32",
+          "price" : 28240.00
+        },
+        {
+          "name" : "32GB (dual) DDR5 6400 Tforce Deta RGB Black CL40",
+          "price" : 26995.00
+        },
+        {
+          "name" : "32GB (dual) DDR5 5600 Corsair Dominator Platinum RGB Black CL36",
+          "price" : 23595.00
+        },
+        {
+          "name" : "32GB (dual) DDR5 6000 G.Skill Trident Z5 RGB Black CL36",
+          "price" : 23530.00
+        },
+        {
+          "name" : "32GB (dual) DDR5 5600 G.Skill Ripjaws S5 White CL36",
+          "price" : 19895.00
+        }
+      ]
+    },
+    {
+      "type" : "case",
+      "imageLink" : "assets/shop_pics/case.png",
+      "model" : [
+        {
+          "name" : "Corsair 7000X RGB TG White ATX",
+          "price" : 17480.00
+        },
+        {
+          "name" : "Asus ROG Strix Helios GX601 RGB White ATX",
+          "price" : 16940.00
+        },
+        {
+          "name" : "Corsair Crystal 680X RGB White ATX",
+          "price" : 14300.00
+        },
+        {
+          "name" : "Cooler Master CM H500 TG Black ATX",
+          "price" : 12950.00
+        },
+        {
+          "name" : "Fractal Meshify 2 TG XL ATX",
+          "price" : 11999.00
+        },
+        {
+          "name" : "Thermaltake TT Core P5 TG ATX Wallmount",
+          "price" : 10140.00
+        }
+      ]
+    },
+    {
+      "type" : "hdd",
+      "imageLink" : "assets/shop_pics/hdd.jpg",
+      "model" : [
+        {
+          "name" : "6TB WD Black HDD 3.5\" 7200rpm",
+          "price" : 11995.00
+        },
+        {
+          "name" : "4TB WD Black HDD 3.5\" 7200rpm",
+          "price" : 10840.00
+        },
+        {
+          "name" : "6TB WD Blue HDD 3.5\" 5400rpm",
+          "price" : 8960.00
+        },
+        {
+          "name" : "2TB WD Black HDD 3.5\" 7200rpm",
+          "price" : 6995.00
+        },
+        {
+          "name" : "1TB WD Black HDD 3.5\" 7200rpm",
+          "price" : 4630.00
+        },
+        {
+          "name" : "2TB Seagate Barracuda HDD 2.5\" 5400rpm",
+          "price" : 4420.00
+        },
+        {
+          "name" : "2TB WD Blue HDD 3.5\" 5400rpm",
+          "price" : 3270.00
+        }
+      ]
+    },
+    {
+      "type" : "ssd",
+      "imageLink" : "assets/shop_pics/ssd.jpg",
+      "model" : [
+        {
+          "name" : "2TB WD Black SN850 SSD NVMe Gen4",
+          "price" : 23830.00
+        },
+        {
+          "name" : "2TB Kingston Fury Renegade SSD NVMe PCIe Gen4",
+          "price" : 19120.00
+        },
+        {
+          "name" : "1TB WD Black SN850 SSD NVMe Gen4",
+          "price" : 11060.00
+        },
+        {
+          "name" : "2TB Samsung 870 QVO SSD 2.5\" SATA",
+          "price" : 9995.00
+        },
+        {
+          "name" : "1TB Kingston KC 3000 SSD NVMe PCIe Gen4",
+          "price" : 9395.00
+        },
+        {
+          "name" : "1TB Samsung 970 EVO PlUS SSD NVMe Gen3",
+          "price" : 7500.00
+        },
+        {
+          "name" : "1TB Samsung 980 SSD NVMe Gen3",
+          "price" : 6950.00
+        }
+      ]
+    },
+    {
+      "type" : "monitor",
+      "imageLink" : "assets/shop_pics/monitor.jpg",
+      "model" : [
+        {
+          "name" : "65\" Asus PG65UQ ROG Strix LED VA 144hz GSYNC 4K",
+          "price": 184995.00
+        },
+        {
+          "name" : "32\" Asus PG32UQX ROG LED Quantum Dot sRGB IPS HDR1400 144Hz GSYNC 4K",
+          "price" : 169995.00
+        },
+        {
+          "name": "48\" Aorus FI48U OLED sRGB 120Hz HDR10 Adaptive Freesync 4K",
+          "price": 78888.00
+        },
+        {
+          "name" : "32\" Asus PG32UQ ROG LED Quantum Dot IPS HDR600 144Hz GSYNC 4K",
+          "price" : 69740.00
+        },
+        {
+          "name" : "34\" ASUS XG349C ROG Swift LED sRGB IPS HDR400 180Hz GSYNC 1440p UW",
+          "price" : 62195.00
+        }
+      ]
+    },
+    {
+      "type" : "psu",
+      "imageLink" : "assets/shop_pics/psu.jpg",
+      "model" : [
+        {
+          "name" : "Asus ROG Thor 1200w 80 platinum modular",
+          "price" : 19670.00
+        },
+        {
+          "name" : "Asus ROG Thor 1000w V2 80 platinum modular",
+          "price" : 17980.00
+        },
+        {
+          "name" : "Seasonic Prime PX Platinum 1300w modular",
+          "price" : 14360.00
+        },
+        {
+          "name" : "Asus ROG Thor 850w 80 platinum  modular",
+          "price" : 13995.00
+        },
+        {
+          "name" : "Seasonic Prime TX Ultra Titanium 1000w modular",
+          "price" : 13730.00
+        },
+        {
+          "name" : "Seasonic Prime GX Gold 1300w modular",
+          "price" : 12040.00
+        }
+      ]
+    },
+    {
+      "type" : "webcam",
+      "imageLink" : "assets/shop_pics/webcam.png",
+      "model" : [
+        {
+          "name" : "Logitech Brio Ultra 4k",
+          "price" : 11499.00
+        },
+        {
+          "name" : "Elgato Facecam Premium FHD",
+          "price" : 9320.00
+        },
+        {
+          "name" : "Logitech C922 Pro Stream",
+          "price" : 4850.00
+        },
+        {
+          "name" : "Asus ROG Eye S FHD Noise-cancelling mic",
+          "price" : 3630.00
+        },
+        {
+          "name" : "Logitech C920 HD Pro",
+          "price" : 3199.00
+        },
+        {
+          "name" : "Asus ROG C3 FHD",
+          "price" : 2350.00
+        }
+      ]
+    },
+    {
+      "type" : "cooler",
+      "imageLink" : "assets/shop_pics/cooler.jpg",
+      "model" : [
+        {
+          "name" : "Noctua NH D15 Chromax.black Air Cooler",
+          "price" : 5710.00
+        },
+        {
+          "name" : "Noctua NH D15S Chromax.black Air Cooler",
+          "price" : 5420.00
+        },
+        {
+          "name" : "Noctua NH u12A Air Cooler",
+          "price" : 5180.00
+        },
+        {
+          "name" : "Cooler Master CM MasterAir MA624 Stealth Air Cooler",
+          "price" : 4995.00
+        },
+        {
+          "name" : "Cooler Master CM MA620M aRGB Air Cooler",
+          "price" : 4780.00
+        },
+        {
+          "name" : "Cryorig R1 Universal Air Cooler Dual Tower heatsink",
+          "price" : 4499.00
+        },
+        {
+          "name" : "Arctic Cooling Freezer 50 aRGB dual Tower Air Cooler",
+          "price" : 4150.00
+        }
+      ]
+    },
+    {
+      "type" : "mouse",
+      "imageLink" : "assets/shop_pics/mouse.png",
+      "model" : [
+        {
+          "name" : "Asus ROG Spatha X",
+          "price" : 6999.00
+        },
+        {
+          "name" : "Logitech G Pro X Superlight",
+          "price" : 5995.00
+        },
+        {
+          "name" : "Razer Viper Ultimate RGB",
+          "price" : 5995.00
+        },
+        {
+          "name" : "SteelSeries SS Aerox 3 Wireless",
+          "price" : 4699.00
+        },
+        {
+          "name" : "SteelSeries SS Rival 710",
+          "price" : 3999.00
+        },
+        {
+          "name" : "Corsair Ironclaw RGB wireless",
+          "price" : 3870.00
+        },
+        {
+          "name" : "Glorious Model O wireless",
+          "price" : 3795.00
+        }
+      ]
+    },
+    {
+      "type" : "keyboard",
+      "imageLink" : "assets/shop_pics/keyboard.jpg",
+      "model" : [
+        {
+          "name" : "Mountain Everest Max Mechanical Cherry MX",
+          "price" : 14995.00
+        },
+        {
+          "name" : "Asus ROG Claymore 2 Aura RX switch",
+          "price" : 12095.00
+        },
+        {
+          "name" : "Corsair K100 RGB Mechanical Cherry MX",
+          "price" : 10999.00
+        },
+        {
+          "name" : "Razer Black Widow v3 Pro Wireless",
+          "price" : 10830.00
+        },
+        {
+          "name" : "SteelSeries SS Apex Pro Mechanical Omni Point Switch",
+          "price" : 10299.00
+        },
+        {
+          "name" : "Logitech G913 RGB TKL Lightspeed Wireless",
+          "price" : 9795.00
+        },
+        {
+          "name" : "Razer Black Widow v3 Mini Hyperspeed TKL",
+          "price" : 8990.00
+        }
+      ]
+    },
+    {
+      "type" : "ups",
+      "imageLink" : "assets/shop_pics/ups.png",
+      "model" : [
+        {
+          "name" : "Prolink 2000VA Pro SFC Series",
+          "price" : 6995.00
+        },
+        {
+          "name" : "APC Back UPS BVX1200LI-MS 1200VA",
+          "price" : 6390.00
+        },
+        {
+          "name" : "APC Back UPS BV1000I-MS 1000VA",
+          "price" : 5610.00
+        },
+        {
+          "name" : "FSP iFP 1000VA",
+          "price" : 4180.00
+        },
+        {
+          "name" : "Intex 1050VA",
+          "price" : 2670.00
+        }
+      ]
+    }
+  ]
+}

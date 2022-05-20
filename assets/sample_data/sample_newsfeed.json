@@ -1,0 +1,32 @@
+{
+  "reviews" : [
+    {
+      "reviewer" : "Linus Tech Tips",
+      "reviewerIcon" : "assets/reviewer_icons/ltt.png",
+      "imageLink": "assets/feed_pics/xbox_devkit.png",
+      "title" : "I Can't Believe I Paid Two Grand For This",
+      "url" : "https://www.youtube.com/watch?v=33fkmSMgOC8"
+    },
+    {
+      "reviewer" : "PCWorld",
+      "reviewerIcon" : "assets/reviewer_icons/pcworld.png",
+      "imageLink" : "assets/feed_pics/amd_gpu.png",
+      "title" : "AMD reloads: Sapphire Nitro+ Radeon RX 6650 XT, 6750 XT, 6950 XT Pure review",
+      "url" : "https://www.pcworld.com/article/699131/sapphire-nitro-amd-radeon-rx-6650-xt-6750-xt-6950-xt-pure-review.html"
+    },
+    {
+      "reviewer" : "Linus Tech Tips",
+      "reviewerIcon" : "assets/reviewer_icons/ltt.png",
+      "imageLink": "assets/feed_pics/10kdollarpc.png",
+      "title" : "Building the $1,000,000 Computer",
+      "url" : "https://www.youtube.com/watch?v=5Hxr9k5Vdc4"
+    },
+    {
+      "reviewer" : "Rtings.com",
+      "reviewerIcon" : "assets/reviewer_icons/rtings.png",
+      "imageLink": "assets/feed_pics/bestwirelessmice.jpg",
+      "title" : "The Best Wireless Gaming Mouse - Spring 2022",
+      "url" : "https://www.rtings.com/mouse/reviews/best/wireless-gaming"
+    }
+  ]
+}

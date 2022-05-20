@@ -1,0 +1,28 @@
+{
+  "products" : [
+    {
+      "part" : "GPU",
+      "manufacturer": "Nvidia",
+      "model" : "GeForce RTX 3080 TI",
+      "image" : "assets/product_pics/3080ti.jpg",
+      "description" : "The GeForce RTX™ 3090 Ti is a big ferocious GPU (BFGPU) with TITAN class performance. Powered by Ampere—NVIDIA’s 2nd gen RTX architecture—they double down on ray tracing and AI performance with enhanced Ray Tracing Cores, Tensor Cores, and new streaming multiprocessors. Plus, they feature a staggering 24 GB of G6X memory, all to deliver the ultimate experience for gamers and creators.",
+      "priceInPeso" : 113305
+    },
+    {
+      "part" : "CPU",
+      "manufacturer" : "Intel",
+      "model" : "Core i9 12900KS",
+      "image" : "assets/product_pics/intel_i9_12900ks.jpg",
+      "description" : "The unlocked i9-12900KS processor is the ultimate processor for enthusiasts and gamers who want the fastest processor available. With 16 cores (eight Performance-cores and eight Efficient-cores) and 24 threads, and up to 5.5 GHz max turbo frequency, 150W processor base power and 30MB Intel® Smart Cache for even more gaming power and performance.",
+      "priceInPeso" : 41995
+    },
+    {
+      "part" : "Motherboard",
+      "manufacturer" : "Asus",
+      "model" : "ROG Maximus Z690 Extreme LGA 1700",
+      "image" : "assets/product_pics/maximus_z690extreme.png",
+      "description" : "Intel® Z690 EATX motherboard with 24+1 power stages, DDR5 with OptiMem III, Five M.2, USB 3.2 Gen 2x2 front-panel connector with Quick Charge 4+ Support, Dual Thunderbolt™ 4, PCIe® 5.0, Onboard Wi-Fi 6E and Aura Sync RGB lighting tite",
+      "priceInPeso" : 57600
+    }
+    ]
+}
