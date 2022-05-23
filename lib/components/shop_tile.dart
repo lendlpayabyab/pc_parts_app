@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:pc_parts_app/models/models.dart';
 import 'package:intl/intl.dart';
+import 'package:pc_parts_app/screens/screens.dart';
 
 class ShopTile extends StatelessWidget {
   final ShopMenu shopMenu;
+  final CartManager manager;
 
   const ShopTile({
     Key? key,
     required this.shopMenu,
+    required this.manager,
   }) : super(key: key);
 
   @override
@@ -25,6 +28,7 @@ class ShopTile extends StatelessWidget {
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => ProductView(
                             shopMenu: shopMenu,
+                            manager: manager,
                           )));
                 },
                 child: Hero(
@@ -54,10 +58,12 @@ class ShopTile extends StatelessWidget {
 
 class ProductView extends StatelessWidget {
   final ShopMenu shopMenu;
+  final CartManager manager;
 
   const ProductView({
     Key? key,
     required this.shopMenu,
+    required this.manager,
   }) : super(key: key);
 
   @override
@@ -115,8 +121,38 @@ class ProductView extends StatelessWidget {
                       quantity: 1,
                       priority: Priority.NORMAL,
                     );
-                    return ProductTile(
-                      item: item,
+                    return InkWell(
+                      onTap: () {
+                        showModalBottomSheet(
+                            context: context,
+                            builder: (BuildContext context) {
+                              return CartItemScreen(
+                                originalItem: item,
+                                onCreate: (item) {},
+                                onUpdate: (item) {
+                                  manager.addItem(item);
+                                  Navigator.pop(context);
+                                  ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text('${item.name} successfully added.'),
+                                        duration: const Duration(milliseconds: 2500),
+                                        /*
+                                        action: SnackBarAction(
+                                          label: 'Go to cart',
+                                          onPressed: () {
+                                            Navigator.pop(context);
+                                          },
+                                        ),
+                                        */
+                                      ),
+                                  );
+                                },
+                              );
+                            });
+                      },
+                      child: ProductTile(
+                        item: item,
+                      ),
                     );
                   },
                   separatorBuilder: (context, index) {
@@ -132,25 +168,6 @@ class ProductView extends StatelessWidget {
     );
   }
 }
-
-/*
-inkwell ontap
-onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => CartItemScreen(
-                              // todo: ayusin to
-                              originalItem: item,
-                              onCreate: (item) {},
-                              onUpdate: (item) {
-                                Navigator.pop(context);
-                              },
-                            ),
-                          ),
-                        );
-                      },
- */
 
 class ProductTile extends StatelessWidget {
   final CartItem item;

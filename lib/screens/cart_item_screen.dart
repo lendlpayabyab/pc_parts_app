@@ -113,7 +113,7 @@ class _CartItemScreenState extends State<CartItemScreen> {
     // TODO: make add item to cart screen
     return Scaffold(
       appBar: AppBar(
-        title: (widget.originalItem != null) ? const Text('Edit cart item') : const Text('Add to cart'),
+        title: (widget.originalItem != null && widget.originalItem?.id != '') ? const Text('Edit cart item') : const Text('Add to cart'),
         actions: [
           IconButton(
             onPressed: () {

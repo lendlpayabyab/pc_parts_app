@@ -12,7 +12,6 @@ class CartTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: make cart tile widget
     return Container(
       decoration: BoxDecoration(
         color: Colors.teal.withOpacity(0.3),

@@ -4,7 +4,6 @@ import 'package:pc_parts_app/components/cart_tile.dart';
 import 'package:pc_parts_app/models/models.dart';
 import 'package:pc_parts_app/screens/screens.dart';
 
-
 class CartListScreen extends StatelessWidget {
   final CartManager manager;
 
@@ -87,16 +86,25 @@ class CartListScreen extends StatelessWidget {
                         key: Key(item.id),
                       ),
                       onTap: () {
-                        showModalBottomSheet(context: context, builder: (BuildContext context){
-                          return CartItemScreen(
-                            originalItem: item,
-                            onUpdate: (item) {
-                              manager.updateItem(item, index);
-                              Navigator.pop(context);
-                            },
-                            onCreate: (item) {},
-                          );
-                        });
+                        showModalBottomSheet(
+                            context: context,
+                            builder: (BuildContext context) {
+                              return CartItemScreen(
+                                originalItem: item,
+                                onUpdate: (item) {
+                                  manager.updateItem(item, index);
+                                  Navigator.pop(context);
+                                  ScaffoldMessenger.of(context)
+                                      .showSnackBar(SnackBar(
+                                    content: Text(
+                                        '${item.name} successfully updated.'),
+                                    duration:
+                                        const Duration(milliseconds: 1500),
+                                  ));
+                                },
+                                onCreate: (item) {},
+                              );
+                            });
                       },
                     ),
                   );

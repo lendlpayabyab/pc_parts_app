@@ -4,10 +4,12 @@ import 'package:pc_parts_app/models/models.dart';
 
 class ShopView extends StatelessWidget {
   final List<ShopMenu> shopMenu;
+  final CartManager manager;
 
   const ShopView({
     Key? key,
     required this.shopMenu,
+    required this.manager,
   }) : super(key: key);
 
   @override
@@ -25,7 +27,7 @@ class ShopView extends StatelessWidget {
         ),
         itemBuilder: (context, index){
           final shopItem = shopMenu[index];
-          return ShopTile(shopMenu: shopItem);
+          return ShopTile(shopMenu: shopItem, manager: manager,);
         },
       ),
     );

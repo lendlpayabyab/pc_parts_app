@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pc_parts_app/components/components.dart';
 import 'package:pc_parts_app/models/models.dart';
 import 'package:pc_parts_app/api/mock_pc_shop_service.dart';
+import 'package:provider/provider.dart';
 
 class ShopScreen extends StatelessWidget {
   ShopScreen({Key? key}) : super(key: key);
@@ -14,7 +15,11 @@ class ShopScreen extends StatelessWidget {
       future: mockService.getShopMenu(),
       builder: (BuildContext context, AsyncSnapshot<List<ShopMenu>> snapshot){
         if(snapshot.connectionState == ConnectionState.done){
-          return ShopView(shopMenu: snapshot.data?? []);
+          return Consumer<CartManager>(
+            builder: (context, manager, child){
+              return ShopView(shopMenu: snapshot.data?? [], manager: manager,);
+            }
+          );
         }
         else{
           return const Center(

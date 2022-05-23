@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
   static List pages = [
     HotScreen(),
     ShopScreen(),
-    const CartScreen(),
+    CartScreen(),
   ];
 
   @override
